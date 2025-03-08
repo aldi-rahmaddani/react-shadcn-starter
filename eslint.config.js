@@ -6,7 +6,7 @@ import tseslint from "typescript-eslint";
 import prettier from "eslint-plugin-prettier";
 
 export default tseslint.config(
-  { ignores: ["dist"] },
+  { ignores: ["dist", "public", "node_modules", ".vite", "*.config.js", "*.config.cjs", ".env"] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ["**/*.{ts,tsx}"],

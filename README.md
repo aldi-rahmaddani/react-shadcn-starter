@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+# 🚀 Frontend Starter Template (React + TypeScript + Vite + ShadCN-UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Template ini dibuat untuk mempermudah setup awal proyek frontend dengan React, TypeScript, Vite, dan ShadCN-UI.
 
-Currently, two official plugins are available:
+## ✨ Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🚀 **Vite** sebagai bundler untuk kecepatan optimal
+- 💡 **TypeScript** untuk kode yang lebih aman
+- 🎨 **ShadCN-UI** sebagai UI component library
+- 🎯 **ESLint + Prettier** untuk memastikan kualitas dan konsistensi kode
+- 🛠 **Lint-staged + Husky** untuk pre-commit hook
+- 🔥 **Mudah dikustomisasi** untuk berbagai kebutuhan proyek
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Instalasi
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+Pastikan Anda sudah menginstal **pnpm** atau package manager lainnya.
+
+```sh
+pnpm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Setelah itu, jalankan proyek dengan:
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    "react-x": reactX,
-    "react-dom": reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs["recommended-typescript"].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
+```sh
+pnpm dev
 ```
+
+## 🚀 Struktur Folder
+
+/src
+├── components/ # Komponen UI
+├── pages/ # Halaman utama
+├── styles/ # Styling & theme
+├── lib/ # Helper & utilities
+├── main.tsx # Entry point aplikasi
+
+## 🛠 Setup ESLint & Prettier
+
+```sh
+pnpm lint      # Mengecek kode dengan ESLint
+pnpm format    # Memformat kode dengan Prettier
+```
+
+Detail konfigurasi linting & formatting ada di docs/eslint-prettier.md.
+
+## 🎨 Customisasi Tema
+
+Untuk mengubah warna utama, edit file tailwind.config.ts.
+
+Lebih detail ada di docs/theming.md.
