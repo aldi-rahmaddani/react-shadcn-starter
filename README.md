@@ -84,6 +84,7 @@ pnpm prepare
 
 ## 🏗️ Project Structure
 
+```bash
 .husky
 .vscode/
 └── settings.json
@@ -117,6 +118,7 @@ tsconfig.app.json
 tsconfig.json
 tsconfig.node.json
 vite.config.ts
+```
 
 ## ✍️ Conventional Commits
 
@@ -152,7 +154,7 @@ fix(ui): resolve button alignment issue
 
 ## ⚖️ License
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+Licensed under the [MIT license](hhttps://github.com/aldi-rahmaddani/react-shadcn-starter/blob/main/LICENSE.md).
 
 ---
 
