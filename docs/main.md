@@ -13,6 +13,10 @@ Starter template for frontend projects with full customization.
 
 ## 🚀 Tech Stack
 
+### Package Manager
+
+![pnpm](https://img.shields.io/badge/-Pnpm-F69220?logo=pnpm&logoColor=fff&style=for-the-badge)
+
 ### Library
 
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
@@ -147,7 +151,6 @@ fix(ui): resolve button alignment issue
 | style    | Non-code changes (formatting, whitespace, etc.)         |
 | chore    | Minor changes (dependency updates, build process, etc.) |
 | test     | Add or update tests                                     |
-| refactor | Code changes without changing functionality             |
 | refactor | Code changes without changing functionality             |
 | ci       | Changes to CI/CD configuration                          |
 | docs     | Documentation updates                                   |
