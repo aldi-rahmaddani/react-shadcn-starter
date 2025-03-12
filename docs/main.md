@@ -153,7 +153,3 @@ fix(ui): resolve button alignment issue
 ## ⚖️ License
 
 Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
-
----
-
-\*\*Note: Modify this README.md file according to your project needs.
