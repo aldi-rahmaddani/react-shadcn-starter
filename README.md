@@ -4,12 +4,13 @@ Starter template for frontend projects with full customization.
 
 ## Table of Contents
 
-- [Tech stack](#🚀-tech-stack)
-- [Installation](#⚙️-installation)
-- [Available Scripts](#📜-available-scripts)
-- [Project Structure](#🏗️-project-structure)
-- [Conventional Commits](#✍️-conventional-commits)
-- [License](#⚖️-license)
+- [Tech stack](#-tech-stack)
+- [Installation](#-installation)
+- [Available Scripts](#-available-scripts)
+- [Adding ui components](#-adding-ui-components)
+- [Project Structure](#-project-structure)
+- [Conventional Commits](#-conventional-commits)
+- [License](#-license)
 
 ## 🚀 Tech Stack
 
@@ -84,6 +85,18 @@ pnpm lint
 
 ```bash
 pnpm prepare
+```
+
+## 📦 Adding UI Components
+
+To add components from shadcn ui, you can refer to the following link:
+
+➡️ [Shadcn ui documentation](https://ui.shadcn.com/docs)
+
+### Example adding component with cli
+
+```bash
+pnpm dlx shadcn@latest add button
 ```
 
 ## 🏗️ Project Structure
